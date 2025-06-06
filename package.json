@@ -1,0 +1,17 @@
+{
+  "name": "job-scheduler",
+  "version": "1.0.0",
+  "description": "A simple job scheduling system using Node.js",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "cron": "^2.3.0",
+    "uuid": "^8.3.2"
+  },
+  "engines": {
+    "node": ">=18.19.1"
+  }
+}
